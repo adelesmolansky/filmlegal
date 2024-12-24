@@ -3,7 +3,7 @@ import React from 'react';
 const About: React.FC = () => (
   <div className="container mx-auto px-4 py-8 relative">
     {/* Page Header / Title */}
-    <div className="flex justify-between items-start">
+    <div className="flex md:flex-row flex-col-reverse justify-between items-start">
       <div>
         <section id="title">
           <h1>Law Office of Innes Smolansky</h1>
@@ -33,30 +33,32 @@ const About: React.FC = () => (
       </div>
 
       {/* Headshot and Contact Info */}
-      <div className="text-center">
+      <div className="text-center flex items-center md:flex-col flex-row">
         <img
           src="/headshot.png"
           alt="Innes Smolansky"
-          className="w-[30rem] h-auto rounded-full mb-2 mx-auto"
+          className="md:w-[30rem] w-2/3 h-auto rounded-full mb-2 mx-auto"
         />
-        <p className="text-blue-600 underline">
-          <a
-            href="https://www.linkedin.com/in/innes-smolansky-93b875/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-        </p>
-        <p className="text-blue-600 underline">
-          <a
-            href="https://www.imdb.com/name/nm2255025/?ref_=fn_al_nm_1"
-            target="_blank"
-            rel="noreferrer"
-          >
-            IMDB
-          </a>
-        </p>
+        <div>
+          <p className="text-blue-600 underline">
+            <a
+              href="https://www.linkedin.com/in/innes-smolansky-93b875/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </p>
+          <p className="text-blue-600 underline">
+            <a
+              href="https://www.imdb.com/name/nm2255025/?ref_=fn_al_nm_1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              IMDB
+            </a>
+          </p>
+        </div>
       </div>
     </div>
 

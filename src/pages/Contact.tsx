@@ -22,8 +22,6 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    console.log('Submitting form:', formData);
-
     try {
       // Replace these with your EmailJS values
       const userId = 'mcLPDDwANJF8cDT8E';

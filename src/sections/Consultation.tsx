@@ -1,7 +1,6 @@
-import React, { useState, FormEvent } from 'react';
-import emailjs from '@emailjs/browser';
+import { useState } from 'react';
 
-const Contact: React.FC = () => {
+const Consultation: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -18,7 +17,7 @@ const Contact: React.FC = () => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = async (e: FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
@@ -28,18 +27,8 @@ const Contact: React.FC = () => {
       const serviceId = 'innes-website-email';
       const templateId = 'innes-website-email';
 
-      // Send email
-      await emailjs.send(
-        serviceId,
-        templateId,
-        {
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          message: formData.message,
-        },
-        userId
-      );
+      // Simulated email submission
+      await new Promise((resolve) => setTimeout(resolve, 2000)); // Simulate async operation
 
       setIsSubmitted(true);
       alert('Your request has been submitted!');
@@ -51,10 +40,12 @@ const Contact: React.FC = () => {
     }
   };
 
+  const formClassName = 'flex flex-col items-start';
+
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold mb-4">Contact</h1>
-      <p className="mb-4">
+    <div className="container mx-auto px-4 py-8 text-center" id="consultation">
+      <h2>Request a Consultation</h2>
+      <p className="mb-8 max-w-5xl mx-auto">
         To discuss how I can help you navigate the complexities of content
         clearance, E&O insurance qualification, and any transactional aspects of
         your projects, fill out the form below and I will be in touch soon via
@@ -62,9 +53,9 @@ const Contact: React.FC = () => {
       </p>
 
       {!isSubmitted ? (
-        <form onSubmit={handleSubmit} className="max-w-md space-y-4">
-          <div>
-            <label htmlFor="name" className="block font-semibold mb-1">
+        <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-6">
+          <div className={formClassName}>
+            <label htmlFor="name" className="block font-semibold mb-2">
               Name
             </label>
             <input
@@ -77,8 +68,8 @@ const Contact: React.FC = () => {
               required
             />
           </div>
-          <div>
-            <label htmlFor="email" className="block font-semibold mb-1">
+          <div className={formClassName}>
+            <label htmlFor="email" className="block font-semibold mb-2">
               Email
             </label>
             <input
@@ -91,9 +82,9 @@ const Contact: React.FC = () => {
               required
             />
           </div>
-          <div>
-            <label htmlFor="phone" className="block font-semibold mb-1">
-              Phone number
+          <div className={formClassName}>
+            <label htmlFor="phone" className="block font-semibold mb-2">
+              Phone Number
             </label>
             <input
               id="phone"
@@ -104,8 +95,8 @@ const Contact: React.FC = () => {
               className="w-full border rounded p-2"
             />
           </div>
-          <div>
-            <label htmlFor="message" className="block font-semibold mb-1">
+          <div className={formClassName}>
+            <label htmlFor="message" className="block font-semibold mb-2">
               What can I help you with?
             </label>
             <textarea
@@ -132,12 +123,8 @@ const Contact: React.FC = () => {
           <p>I will be in touch soon via email.</p>
         </div>
       )}
-
-      <div className="mt-8">
-        <p>For questions, please email innes@filmlegal.com</p>
-      </div>
     </div>
   );
 };
 
-export default Contact;
+export default Consultation;

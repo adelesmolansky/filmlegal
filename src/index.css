@@ -24,32 +24,10 @@ section {
   margin-bottom: 1rem;
 }
 
-h1 {
-  /* text-2xl font-bold mb-4 */
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
 h2 {
-  /* text-xl font-semibold mb-2 */
-  font-size: 1.125rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-ul {
-  /* list-disc list-outside mb-2 ml-4 */
-  list-style-type: disc;
-  list-style-position: outside;
-  margin-bottom: 0.5rem;
-  margin-left: 1rem;
-}
-
-/* Override the styles for the navbar ul */
-.navbar-ul {
-  list-style-type: none; /* Removes bullets */
-  list-style-position: initial; /* Resets position */
-  margin: 0; /* Removes global margin */
-  padding: 0; /* Ensures no padding */
+  /* text-3xl font-bold text-center mb-8 */
+  font-size: 1.825rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
 }

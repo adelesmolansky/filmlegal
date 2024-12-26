@@ -1,3 +1,4 @@
+import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 
 const Consultation: React.FC = () => {
@@ -27,8 +28,18 @@ const Consultation: React.FC = () => {
       const serviceId = 'innes-website-email';
       const templateId = 'innes-website-email';
 
-      // Simulated email submission
-      await new Promise((resolve) => setTimeout(resolve, 2000)); // Simulate async operation
+      // Send email
+      await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+        },
+        userId
+      );
 
       setIsSubmitted(true);
       alert('Your request has been submitted!');

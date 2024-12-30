@@ -22,8 +22,8 @@ const Services: React.FC<ServicesProps> = ({ setModalContent }) => {
       {/* Main Services */}
       <div
         className={cx(
-          // 3 columns on small screens, 6 columns on large screens
-          'grid grid-cols-3 lg:grid-cols-6',
+          // 2 columns on small, 3 columns on medium, 6 columns on large screens
+          'grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6',
           'lg:w-2/3',
           'mt-12 mx-auto gap-6',
           'animate-fade-in'

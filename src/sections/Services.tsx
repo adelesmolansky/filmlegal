@@ -1,5 +1,6 @@
 import { PopupContent } from '../components/MoreInfoPopup';
 import services from '../services.json';
+import cx from 'classix';
 
 type ServicesProps = { setModalContent: (content: PopupContent) => void };
 
@@ -19,8 +20,15 @@ const Services: React.FC<ServicesProps> = ({ setModalContent }) => {
         I can support your legal and business needs.
       </p>
       {/* Main Services */}
-      {/* <div className="md:gap-20 gap-12 animate-fade-in mt-12 flex flex-row wrap mx-auto justify-center"> */}
-      <div className="mx-auto grid grid-cols-3 lg:w-2/3 lg:grid-cols-6 gap-6 animate-fade-in mt-12">
+      <div
+        className={cx(
+          // 3 columns on small screens, 6 columns on large screens
+          'grid grid-cols-3 lg:grid-cols-6',
+          'lg:w-2/3',
+          'mt-12 mx-auto gap-6',
+          'animate-fade-in'
+        )}
+      >
         {services.main.map((service: any, index: number) => (
           <div
             className="text-center cursor-pointer"
@@ -44,7 +52,14 @@ const Services: React.FC<ServicesProps> = ({ setModalContent }) => {
           Explore other critical services, including Content Clearance and Fair
           Use, Corporate Formation, and Merchandising & Licensing.
         </p>
-        <div className="mx-auto grid grid-cols-1 lg:w-2/3 lg:grid-cols-3 gap-6 animate-fade-in mt-12">
+        <div
+          className={cx(
+            // 1 column on small screens, 3 columns on large screens
+            'grid grid-cols-1 lg:grid-cols-3',
+            'mx-auto lg:w-2/3 gap-6 mt-12',
+            'animate-fade-in'
+          )}
+        >
           {services.additional.map((service: any, index: number) => (
             <div
               className="text-center cursor-pointer"

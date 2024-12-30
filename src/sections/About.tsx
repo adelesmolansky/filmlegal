@@ -1,10 +1,19 @@
+import cx from 'classix';
+
 const About = () => (
   <section id="about" className="py-16 px-6 bg-white text-left">
     <h2>About Me</h2>
     <div className="md:container w-full mx-auto">
       {/* Headshot and overview */}
       <div className="flex flex-col gap-4 md:flex-row md:gap-12">
-        <div className="w-3/5 md:w-1/5 h-auto flex flex-col items-center justify-start gap-4 mx-auto">
+        <div
+          className={cx(
+            'flex flex-col', // flex column
+            'items-center justify-start mx-auto', // center items horizontally, start vertically
+            'w-3/5 md:w-1/5', // 1/5 width on mobile, 3/5 on desktop
+            'h-auto gap-4' // auto height
+          )}
+        >
           <img
             src="headshot.png"
             alt="Headshot of Innes Smolansky"

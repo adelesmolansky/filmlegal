@@ -1,3 +1,4 @@
+import cx from 'classix';
 import React, { useState } from 'react';
 
 type NavItem = {
@@ -17,7 +18,14 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 bg-footer-and-nav text-white py-2 z-50 shadow-md">
+    <nav
+      className={cx(
+        'bg-footer-and-nav', // background color for footer and navbar
+        'text-white', // text color for navbar
+        'sticky top-0', // stick to the top of the screen
+        ' py-2 z-50 shadow-md'
+      )}
+    >
       <div className="container mx-auto flex justify-between items-center px-4">
         <h1 className="text-lg font-bold">Law Office of Innes Smolansky</h1>
         {/* Hamburger icon for mobile screen */}
@@ -42,7 +50,14 @@ const Navbar: React.FC = () => {
 
       {/* Navbar items for the mobile version */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-[#1b1238] shadow-md md:hidden">
+        <div
+          className={cx(
+            'bg-footer-and-nav', // background color for footer and navbar
+            'absolute left-0', // absolute positioning
+            'top-full w-full shadow-md',
+            'md:hidden' // only visible on mobile screen
+          )}
+        >
           <div className="flex flex-col items-start space-y-2 px-4 py-2">
             {navItems.map((item) => (
               <a

@@ -56,12 +56,6 @@ const Consultation: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8 text-center" id="consultation">
       <h2>Request a Consultation</h2>
-      <p className="mb-8 max-w-5xl mx-auto">
-        To discuss how I can help you navigate the complexities of content
-        clearance, E&O insurance qualification, and any transactional aspects of
-        your projects, fill out the form below and I will be in touch soon via
-        email regarding a consultation.
-      </p>
 
       {!isSubmitted ? (
         <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-6">

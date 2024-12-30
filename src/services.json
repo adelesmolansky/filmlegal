@@ -1,52 +1,104 @@
-[
-  {
-    "title": "Content Clearance & Fair Use",
-    "punchline": "Secure clearances with confidence.",
-    "description": "Ensure your projects meet all legal requirements for distribution. Comprehensive vetting of audiovisual content and fair use analysis with Opinion Letter writing to qualify for Errors & Omissions insurance coverage."
-  },
-  {
-    "title": "Contract Drafting & Review",
-    "punchline": "Crafted contracts, tailored for you.",
-    "description": "Expert legal language tailored to your specific needs. Comprehensive contract review and drafting services for various entertainment transactions."
-  },
-  {
-    "title": "Corporate Formation",
-    "punchline": "Build a solid foundation for success.",
-    "description": "Set up the right legal structure for your project or company. Structuring and drafting all required corporate formation documents and instruments."
-  },
-  {
-    "title": "Talent Representation",
-    "punchline": "Empowering talent with legal expertise.",
-    "description": "Comprehensive guidance for creators and talent managers. Legal services for talent management agencies and individual artists across many genres."
-  },
-  {
-    "title": "International Co-Productions",
-    "punchline": "Navigate global collaborations with ease.",
-    "description": "Leverage tax credits, subsidies, and global partnerships. Comprehensive advice on deal structuring and project financing through international co-productions."
-  },
-  {
-    "title": "Documentary Legal Services",
-    "punchline": "Documentaries done right.",
-    "description": "Full support for documentary production from development to distribution, including rights clearances and financing agreements."
-  },
-  {
-    "title": "Television Legal Services",
-    "punchline": "Bringing your TV vision to life.",
-    "description": "Comprehensive business and legal representation during all stages of the creative process for television productions."
-  },
-  {
-    "title": "Film Legal Services",
-    "punchline": "Supporting films from script to screen.",
-    "description": "Full-cycle business and legal support for feature films, independent films, and shorts."
-  },
-  {
-    "title": "Merchandising and Licensing",
-    "punchline": "Maximize your brand's potential.",
-    "description": "Representation in merchandising and licensing deals, including toys, collectibles, apparel, and more."
-  },
-  {
-    "title": "Outside General Counsel",
-    "punchline": "Your on-call legal partner.",
-    "description": "Regular legal representation and advice for companies without full-time in-house legal teams."
-  }
-]
+{
+  "main": [
+    {
+      "title": "Documentaries",
+      "icon": "🎥",
+      "description": "Comprehensive business and legal representation of all aspects of documentary production from early stages of development, through fundraising, production, principal photography, post-production and distribution",
+      "services": [
+        "Reviewing, negotiating and drafting agreements for underlying rights, including life story and other rights that are the subject matter of the documentary",
+        "Drafting and negotiating all above and below the line agreements",
+        "Structuring, negotiating, advising on and drafting financing agreements",
+        "Advising on and vetting of audiovisual content for all the necessary clearances and fair use analysis with Opinion Letter",
+        "Assistance with acquiring Errors & Omissions insurance coverage with fair use riders on the best terms",
+        "Reviewing and negotiating all domestic and international distribution and pre-sale agreements for any and all media rights"
+      ]
+    },
+    {
+      "title": "Television",
+      "icon": "📺",
+      "description": "Comprehensive business and legal representation during all stages of the creative process for producers, writers, talent executives, performers, directors and celebrity personalities working in all forms of television and streaming including:",
+      "services": [
+        "Network development agreement, Network production financing agreements, Network production services agreements",
+        "Production counsel during development and production, including domestic and foreign access agreements, and co-production agreements",
+        "Securing intellectual property rights and obtaining all required clearances",
+        "Contracts, licenses and releases for all talent and above the line crew",
+        "Music licenses",
+        "Resolving Guild disputes, including the SAG/AFTRA, WGA and DGA",
+        "Distribution, licensing, including derivative productions"
+      ]
+    },
+    {
+      "title": "Film",
+      "icon": "🎬",
+      "description": "Business and Legal representation during the full cycle of motion picture production for feature films, independent films and shorts including:",
+      "services": [
+        "Securing underlying intellectual property rights",
+        "Assistance with business plans and budgets",
+        "Structuring, negotiating and drafting financing agreements",
+        "LLC operating agreements, and Blue Sky state securities filings",
+        "Domestic and international co-production agreements",
+        "Drafting and negotiating contracts for writers, producers, directors, composers, cast and all crew",
+        "Music licenses",
+        "Vetting of screenplays and film footage for all the necessary clearances and fair use analysis with Opinion Letter writing to qualify for Errors & Omissions insurance coverage with fair use riders",
+        "Resolving and mediating disputes including Guild disputes with WGA, SAG, or DGA",
+        "Reviewing and negotiating domestic and international distribution, licensing, and merchandising agreements"
+      ]
+    },
+    {
+      "title": "Podcasts",
+      "icon": "🎙️",
+      "services": [
+        "Review and negotiate prepublication review",
+        "Content Clearance",
+        "Crew and Talent agreements"
+      ]
+    },
+    {
+      "title": "Books",
+      "icon": "📚",
+      "description": "Review and negotiate book publishing agreements"
+    },
+    {
+      "title": "Animation",
+      "icon": "🎭",
+      "services": [
+        "Securing underlying intellectual property rights",
+        "Assistance with business plans and budgets",
+        "Structuring, negotiating and drafting financing agreements",
+        "LLC operating agreements, and Blue Sky state securities filings",
+        "Drafting and negotiating contracts for writers, producers, directors, composers, cast and all crew",
+        "Music licenses",
+        "Vetting of screenplays and film footage for all the necessary clearances and fair use analysis with Opinion Letter writing to qualify for Errors & Omissions insurance coverage with fair use riders"
+      ]
+    }
+  ],
+  "additional": [
+    {
+      "title": "Content Clearance and Fair Use",
+      "icon": "🔍",
+      "services": [
+        "Comprehensive vetting of audiovisual content for all the necessary clearances and fair use analysis with Opinion Letter writing to qualify for Errors & Omissions insurance coverage with fair use riders",
+        "Assistance with acquiring Errors & Omissions insurance coverage with fair use riders on the best terms"
+      ]
+    },
+    {
+      "title": "Corporate Formation",
+      "icon": "🏢",
+      "services": [
+        "Advising on the optimal corporate structure",
+        "Structuring and drafting all required corporate formation documents and instruments, including formation of limited liability companies, corporations, limited partnerships and general partnerships",
+        "Employment Agreements and Independent Contractor Agreements",
+        "Service Agreements and Fulfillment Agreements",
+        "NDAs"
+      ]
+    },
+    {
+      "title": "Merchandising and Licensing",
+      "icon": "🛍️",
+      "services": [
+        "Representing creators and trademark and copyright owners in various merchandising and licensing deals, including toys, collectibles, apparel, and general merchandise",
+        "Structuring, negotiating and drafting all related merchandising and licensing agreements, including brand deals licensing deals, book deals, co-branding deals, merchandize production and fulfillment deals, etc."
+      ]
+    }
+  ]
+}

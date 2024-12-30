@@ -11,10 +11,10 @@ const Footer: React.FC = () => (
           from film and TV to books and podcasts.
         </p>
       </div>
-      <div className="w-full md:w-1/3 text-center my-4 md:my-0 flex flex-col justify-center">
+      <div className="w-full md:w-1/3 text-center my-4 md:my-0 flex flex-col justify-center items-center">
         <a
           href="https://www.linkedin.com/in/innes-smolansky-93b875/"
-          className="text-blue-400 hover:underline mr-4"
+          className="text-blue-400 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
         >

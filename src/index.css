@@ -31,3 +31,15 @@ h2 {
   margin-bottom: 2rem;
   text-align: center;
 }
+
+h3 {
+  /* text-xl font-bold mb-1 */
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1rem;
+}

@@ -30,7 +30,8 @@ const Footer: React.FC = () => (
         </a>
       </div>
       <div className="w-full md:w-1/3 text-center md:text-right">
-        <p className="mb-2">Address: 761 Carroll Street, Brooklyn, NY 11215</p>
+        <p className="mb-2">Address: Brooklyn, NY 11215</p>
+        <p className="mb-2">Phone: (212) 464-8191</p>
         <p>
           Email:{' '}
           <a

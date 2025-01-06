@@ -16,8 +16,8 @@ const Services: React.FC<ServicesProps> = ({ setModalContent }) => {
     <section className="py-16 px-6 bg-indigo-200" id="services">
       <h2>Tailored Services for the Entertainment Industry</h2>
       <p className="text-center mt-4 text-base">
-        [SUMMARY OF SERVICES]. Click on a category below to learn more about how
-        I can support your legal and business needs.
+        Click on thea category below to learn more about how I can support your
+        legal and business needs.
       </p>
       {/* Main Services */}
       <div
@@ -50,7 +50,7 @@ const Services: React.FC<ServicesProps> = ({ setModalContent }) => {
         </h3>
         <p className="text-center mt-4 text-base">
           Explore other critical services, including Content Clearance and Fair
-          Use, Corporate Formation, and Merchandising & Licensing.
+          Use, Corporate Entity Formation, and Merchandising & Licensing.
         </p>
         <div
           className={cx(

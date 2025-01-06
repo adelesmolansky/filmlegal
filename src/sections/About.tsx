@@ -43,10 +43,10 @@ const About = () => (
             knowledge with a passion for the arts.
           </p>
           <p>
-            My goal is to empower creators, producers, and investors to navigate
-            the complex legal landscape of the entertainment industry
-            confidently and efficiently, while mitigating risks associated with
-            each step of production and distribution.
+            My goal is to empower all my clients to navigate the complex legal
+            landscape of the entertainment industry confidently and efficiently,
+            while mitigating risks associated with each step of production and
+            distribution.
           </p>
           {/* Lectures */}
           <section className="mb-6">

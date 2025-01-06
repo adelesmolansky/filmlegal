@@ -3,10 +3,10 @@
     {
       "title": "Documentaries",
       "icon": "🎥",
-      "description": "Comprehensive business and legal representation of all aspects of documentary production from early stages of development, through fundraising, production, principal photography, post-production and distribution",
+      "description": "Comprehensive business and legal representation of all aspects of documentary production from early stages of development, through fundraising, production, principal photography, post-production and distribution, including:",
       "services": [
-        "Reviewing, negotiating and drafting agreements for underlying rights, including life story and other rights that are the subject matter of the documentary",
-        "Drafting and negotiating all above and below the line agreements",
+        "Reviewing, negotiating and drafting agreements to secure underlying rights, including life story and other rights that are the subject matter of the documentary",
+        "Drafting and negotiating all agreements for the above the line and below the line talent and crew",
         "Structuring, negotiating, advising on and drafting financing agreements",
         "Advising on and vetting of audiovisual content for all the necessary clearances and fair use analysis with Opinion Letter",
         "Assistance with acquiring Errors & Omissions insurance coverage with fair use riders on the best terms",
@@ -18,7 +18,9 @@
       "icon": "📺",
       "description": "Comprehensive business and legal representation during all stages of the creative process for producers, writers, talent executives, performers, directors and celebrity personalities working in all forms of television and streaming including:",
       "services": [
-        "Network development agreement, Network production financing agreements, Network production services agreements",
+        "Network development agreements",
+        "Network production financing agreements",
+        "Network production services agreements",
         "Production counsel during development and production, including domestic and foreign access agreements, and co-production agreements",
         "Securing intellectual property rights and obtaining all required clearances",
         "Contracts, licenses and releases for all talent and above the line crew",
@@ -34,7 +36,7 @@
       "services": [
         "Securing underlying intellectual property rights",
         "Assistance with business plans and budgets",
-        "Structuring, negotiating and drafting financing agreements",
+        "Structuring, negotiating and drafting all necessary financing agreements, including LLC operating agreements, and Blue Sky state securities filings",
         "LLC operating agreements, and Blue Sky state securities filings",
         "Domestic and international co-production agreements",
         "Drafting and negotiating contracts for writers, producers, directors, composers, cast and all crew",
@@ -48,9 +50,9 @@
       "title": "Podcasts",
       "icon": "🎙️",
       "services": [
-        "Review and negotiate prepublication review",
+        "Prepublication review",
         "Content Clearance",
-        "Crew and Talent agreements"
+        "Structuring, drafting and negotiating contracts for all crew and talent agreements"
       ]
     },
     {
@@ -63,12 +65,7 @@
       "icon": "🎭",
       "services": [
         "Securing underlying intellectual property rights",
-        "Assistance with business plans and budgets",
-        "Structuring, negotiating and drafting financing agreements",
-        "LLC operating agreements, and Blue Sky state securities filings",
-        "Drafting and negotiating contracts for writers, producers, directors, composers, cast and all crew",
-        "Music licenses",
-        "Vetting of screenplays and film footage for all the necessary clearances and fair use analysis with Opinion Letter writing to qualify for Errors & Omissions insurance coverage with fair use riders"
+        "Structuring, drafting, and negotiating contracts for writers, producers, directors, composers, cast and all crew"
       ]
     }
   ],
@@ -82,7 +79,7 @@
       ]
     },
     {
-      "title": "Corporate Formation",
+      "title": "Corporate Entity Formation",
       "icon": "🏢",
       "services": [
         "Advising on the optimal corporate structure",

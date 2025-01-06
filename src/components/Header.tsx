@@ -10,7 +10,7 @@ const DESCRIPTIONS = {
     title: 'Business Services',
     services: [
       'Help clients make and close deals',
-      'Save clients money by helping avoid disputes and litigations',
+      'Save clients money by helping avoid disputes and litigation',
       'Introduce clients to key players in the industry',
     ],
   },
